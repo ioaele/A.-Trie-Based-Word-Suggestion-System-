@@ -24,8 +24,12 @@ The Trie-Based Word Suggestion System implements a powerful word suggestion engi
 2. **Robin Hood Hash Table**: Stores words with efficient collision resolution.
 3. **Min-Heap**: Stores the top `k` suggestions based on importance.
 
+**Important**
+In order to see how the Trie nodes implementation using a Robin Hood hashing table has a better approach than using a Static array, we implemented the same project using a static array (all the ...2 classes).
+  > Further explanation using a static array:
+Each Trie node contains a static array where each position corresponds to a character, without relying on the ASCII table.Each entry in the array stores the character and a pointer to the next Trie node. Additionally, each node holds the importance value of the word that ends at that node.
 
-**Run**
+**Run** 
 Run the program with two input files:
 java mainGame <dictionary_file> <importance_text_file>
 The text file is parsed to count how often dictionary words appear (ignoring punctuation), increasing their importance each time they're found.
