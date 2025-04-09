@@ -23,9 +23,6 @@ The system models different food items such as fries, pies, and various meats, e
  Utilizes the factory design pattern for creating instances of food items, promoting scalabilit
 
 **Running**
-- run the class Order Generator: Generates orders, sorts them based on order time, and
- *      writes them to a file.
-- run the class Order Delivery: Simulates order deliveries
- *      based on input data.
- */
- */
+- run the class Order Generator: Generates orders, sorts them based on order time, and writes them to a file.
+- run the class Order Delivery: Simulates order deliveries based on input data.
+
